@@ -15,6 +15,9 @@ int InputNum(string message)
   return int.Parse(Console.ReadLine()!);
 }
 
+/*
+Заполнение по спирали для квадратной матрицы любого размера
+*/
 int[,] CreateArray(int size)
 {
   int[,] array = new int[size, size];
